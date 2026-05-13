@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "has_issues": true,
+  "has_projects": true,
+  "has_wiki": false,
+  "delete_branch_on_merge": true,
+  "allow_squash_merge": true,
+  "allow_rebase_merge": true,
+  "allow_merge_commit": false
+}

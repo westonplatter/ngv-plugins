@@ -1,0 +1,17 @@
+{
+  "name": "ngv-plugins",
+  "owner": {
+    "name": "Weston Platter"
+  },
+  "metadata": {
+    "description": "Claude Code plugins for NGV quant development workflows.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "ngv-quant-dev",
+      "source": "./plugins/ngv-quant-dev",
+      "description": "Guardrails and helpers for NGV quant developers working with IBKR data."
+    }
+  ]
+}
