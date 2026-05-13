@@ -9,9 +9,9 @@
   },
   "plugins": [
     {
-      "name": "ngv-quant-dev",
-      "source": "./plugins/ngv-quant-dev",
-      "description": "Guardrails and helpers for NGV quant developers working with IBKR data."
+      "name": "ngv-dev",
+      "source": "./plugins/ngv-dev",
+      "description": "The NextGenVol (NGV) agentic exoskeleton for quant development."
     }
   ]
 }
