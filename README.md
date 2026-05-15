@@ -20,12 +20,35 @@ Or for local development:
 
 ### ngv-dev
 
-The NextGenVol agentic exoskeleton for quant development.
+NextGenVol agentic toolkit for quant development. Review-on-demand only — does not block commits.
 
-- **Skill `ibkr-data-protection`** — auto-loads when reviewing staged IBKR-related changes. Detects real account IDs, exec IDs, tokens, and recent trade timestamps that should be anonymized per NGV conventions.
-- **Command `/ngv-dev:ibkr-data-protection`** — explicit entry point. Runs the staged-diff scan and prints offending lines.
+**Skills** — auto-loaded by Claude when context matches.
 
-Review-on-demand only — does not block commits.
+<table>
+  <thead>
+    <tr><th>Name</th><th>What it does</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>ngv-dev:ibkr-data-protection</code></td>
+      <td>Auto-loads on staged IBKR-related changes. Flags real account IDs, exec IDs, tokens, and recent trade timestamps that should be anonymized.</td>
+    </tr>
+  </tbody>
+</table>
+
+**Commands** — user-invoked via slash command.
+
+<table>
+  <thead>
+    <tr><th>Name</th><th>What it does</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>/ngv-dev:ibkr-data-protection</code></td>
+      <td>Manual entry point for the IBKR scan. Reads the staged diff and prints offending lines with suggested anonymized values.</td>
+    </tr>
+  </tbody>
+</table>
 
 ## Evals
 
