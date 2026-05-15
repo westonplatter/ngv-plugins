@@ -26,3 +26,11 @@ The NextGenVol agentic exoskeleton for quant development.
 - **Command `/ngv-dev:ibkr-data-protection`** — explicit entry point. Runs the staged-diff scan and prints offending lines.
 
 Review-on-demand only — does not block commits.
+
+## Evals
+
+Local, zero-cost eval harness for NGV skills, run against a model served by
+LM Studio via the Anthropic SDK. Currently covers `ibkr-data-protection`.
+
+See [`evals/README.md`](./evals/README.md) for setup, prerequisites, and how
+to add cases.

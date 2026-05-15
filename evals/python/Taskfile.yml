@@ -1,0 +1,11 @@
+version: "3"
+
+tasks:
+  sync:
+    desc: "Install Python eval deps via uv"
+    cmd: uv sync
+
+  eval:
+    desc: "Run the ibkr-data-protection Python evals against LM Studio"
+    deps: [sync]
+    cmd: uv run python run_evals.py
