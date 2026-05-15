@@ -1,0 +1,17 @@
+version: "3"
+
+tasks:
+  default:
+    desc: "List all available tasks (alias: l)"
+    aliases: [l]
+    cmd: task --list
+
+includes:
+  evals:python:
+    taskfile: ./evals/python/Taskfile.yml
+    dir: ./evals/python
+    flatten: false
+  evals:typescript:
+    taskfile: ./evals/typescript/Taskfile.yml
+    dir: ./evals/typescript
+    flatten: false

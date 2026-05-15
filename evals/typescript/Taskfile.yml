@@ -1,0 +1,11 @@
+version: "3"
+
+tasks:
+  install:
+    desc: "Install TypeScript eval deps via npm"
+    cmd: npm install
+
+  eval:
+    desc: "Run the ibkr-data-protection TypeScript evals against LM Studio"
+    deps: [install]
+    cmd: npm run eval

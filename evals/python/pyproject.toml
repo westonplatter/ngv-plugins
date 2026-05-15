@@ -1,0 +1,8 @@
+[project]
+name = "ibkr-data-protection-evals"
+version = "0.1.0"
+description = "Local eval harness for the ibkr-data-protection skill via LM Studio."
+requires-python = ">=3.10"
+dependencies = [
+    "anthropic>=0.40.0",
+]

@@ -9,6 +9,8 @@ allowed-tools: Read, Grep, Glob, Bash
 
 # Skill Security Scanner
 
+> Adapted from [getsentry/skills — `skill-scanner`](https://github.com/getsentry/skills/blob/main/skills/skill-scanner/SKILL.md).
+
 Scan agent skills for security issues before adoption. Detects prompt injection, malicious code, excessive permissions, secret exposure, and supply chain risks.
 
 **Requires**: The `uv` CLI for python package management, install guide at https://docs.astral.sh/uv/getting-started/installation/
